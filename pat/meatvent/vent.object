@@ -1,0 +1,41 @@
+{
+	"objectName" : "pat_meatvent",
+	"rarity" : "Rare",
+	"category" : "decorative",
+	"printable" : false,
+
+	"description" : "A vent that dispenses a delicious raw meat!",
+	"shortdescription" : "Meat vent",
+
+	"apexDescription" : "A rusted old fan.. is that meat?",
+	"avianDescription" : "A whistle of air still slips through with the meat.",
+	"floranDescription" : "Floran can sssmell raw meat coming through here.",
+	"glitchDescription" : "Observant. This vent is releasing meat.",
+	"hylotlDescription" : "This fan circulates raw meat.",
+	"novakidDescription" : "It's a vent. There's raw meat comin' from it.",
+
+	"inventoryIcon" : "vent.png:0",
+	"orientations" : [
+		{
+			"image" : "vent.png:<frame>",
+			"direction" : "right",
+			"imagePosition" : [-8, -8],
+			"frames" : 4,
+			"animationCycle" : 0.2,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	],
+	
+	"animation" : "vent.animation",
+	"soundEffect" : "/sfx/objects/bunkervent.ogg",
+	
+	"scripts" : ["vent.lua"],
+	"meat" : {
+		"projectile" : "pat_meatvent",
+		"variants" : 10,
+		"speed" : [15, 25],
+		"time" : [0.3, 6],
+		"soundPitch" : [0.92, 1.24]
+	}
+}

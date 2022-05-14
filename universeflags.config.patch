@@ -1,0 +1,37 @@
+[
+	[
+		{
+			"op" : "add",
+			"path" : "/_meatvent",
+			"value" : {
+				"type" : "placeDungeon",
+				"dungeonId" : "pat_meatvent",
+				"targetInstance" : "outpost",
+				"targetPosition" : [433, 585]
+			}
+		}
+	],
+	[
+		{
+			"op" : "test",
+			"path" : "/anomsOutpostOverhaul"
+		},
+		{
+			"op" : "replace",
+			"path" : "/_meatvent/targetPosition",
+			"value" : [409, 589]
+		}
+	],
+	[
+		{
+			"op" : "add",
+			"path" : "/pat_meatvent",
+			"value" : { "actions" : [] }
+		},
+		{
+			"op" : "move",
+			"from" : "/_meatvent",
+			"path" :  "/pat_meatvent/actions/-"
+		}
+	]
+]

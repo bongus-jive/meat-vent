@@ -1,0 +1,22 @@
+{
+  "metadata" : {
+    "name" : "pat_meatvent",
+    "species" : "generic",
+    "rules" : [],
+
+    "anchor" : [ "pat_meatvent" ],
+
+    "maxRadius" : 1000000,
+    "maxParts" : 1
+  },
+
+  "parts" : [
+    {
+      "name" : "pat_meatvent",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "meatvent.json" ]
+    }
+  ]
+}

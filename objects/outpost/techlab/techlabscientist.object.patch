@@ -1,0 +1,5 @@
+[{
+	"op" : "add",
+	"path" : "/scripts/-",
+	"value" : "pat_meatventflag.lua"
+}]
