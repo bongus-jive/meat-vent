@@ -7,6 +7,8 @@ function init()
 	timer = 0.1
 	parameters = {}
 	center = rect.center(object.boundBox())
+  
+  onInputNodeChange({node = 0, level = object.getInputNodeLevel(0)})
 end
 
 function update(dt)
@@ -31,4 +33,18 @@ function update(dt)
 		animator.playSound("meat")
 		animator.burstParticleEmitter("blood")
 	end
+end
+
+function onInputNodeChange(args)
+  if args.node == 0 then
+    local connected = object.isInputNodeConnected(0)
+    if not connected then args.level = true end
+    
+    animator.setParticleEmitterActive("drip", args.level)
+    script.setUpdateDelta(args.level and 1 or 0)
+  end
+end
+
+function onNodeConnectionChange()
+  onInputNodeChange({node = 0, level = object.getInputNodeLevel(0)})
 end
