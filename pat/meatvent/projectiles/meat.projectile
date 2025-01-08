@@ -1,57 +1,57 @@
 {
-  "projectileName" : "pat_meatvent",
-  "image" : "meat.png",
-  "speed" : 25,
-  "timeToLive" : 10,
-  "bounces" : -1,
-	"flippable" : false,
-	"orientationLocked" : false,
-  "onlyHitTerrain" : true,
-	"damageType" : "NoDamage",
-	
-  "periodicActions" : [
+	"projectileName": "pat_meatvent",
+	"image": "meat.png",
+	"speed": 25,
+	"timeToLive": 10,
+	"bounces": -1,
+	"flippable": false,
+	"orientationLocked": false,
+	"onlyHitTerrain": true,
+	"damageType": "NoDamage",
+
+	"periodicActions": [
 		{
-			"action" : "loop",
-			"time" : 0,
-			"count" : 2,
-			"repeat" : true,
-			"body" : [{
-				"action" : "particle",
-				"specification" : {
-					"type" : "ember",
-					"layer" : "front",
-					"size" : 1,
-					"color" : [150, 0, 0],
-					"initialVelocity" : [0, 0],
-					"finalVelocity" : [0, -50],
-					"approach" : [10, 35],
-					"timeToLive" : 8,
-					"collidesForeground" : true,
-					"destructionTime" : 10,
-					"destructionAction" : "shrink",
-					"variance" : {
-						"size" : 0.375,
-						"initialVelocity" : [10, 10],
-						"timeToLive" : 4
+			"action": "loop",
+			"time": 0,
+			"count": 2,
+			"repeat": true,
+			"body": [ {
+					"action": "particle",
+					"specification": {
+						"type": "ember",
+						"layer": "front",
+						"size": 1,
+						"color": [ 150, 0, 0 ],
+						"initialVelocity": [ 0, 0 ],
+						"finalVelocity": [ 0, -50 ],
+						"approach": [ 10, 35 ],
+						"timeToLive": 8,
+						"collidesForeground": true,
+						"destructionTime": 10,
+						"destructionAction": "shrink",
+						"variance": {
+							"size": 0.375,
+							"initialVelocity": [ 10, 10 ],
+							"timeToLive": 4
+						}
 					}
-				}
-			}]
+				} ]
 		}
 	],
-	
-	"movementSettings" : {
-		"mass" : 1,
-		"gravityMultiplier" : 1,
-		"bounceFactor" : 0.65,
-    "stopOnFirstBounce" : true
+
+	"movementSettings": {
+		"mass": 1,
+		"gravityMultiplier": 1,
+		"bounceFactor": 0.65,
+		"stopOnFirstBounce": true
 	},
-	
-	"rotationSpeed" : 50,
-	"maxBounces" : 15,
-	"stickSettings" : {
-		"stickyCollision" : true,
-		"stickyForce" : 1,
-		"enableSurfaceSlopeCorrection" : true
+
+	"rotationSpeed": 50,
+	"maxBounces": 15,
+	"stickSettings": {
+		"stickyCollision": true,
+		"stickyForce": 1,
+		"enableSurfaceSlopeCorrection": true
 	},
-	"scripts" : ["meat.lua"]
+	"scripts": [ "meat.lua" ]
 }

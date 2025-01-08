@@ -1,57 +1,57 @@
 {
-	"particleEmitters" : {
-		"blood" : {
-			"burstCount" : 16,
-			"offsetRegion" : [2.5, -0.5, -0.5, 1],
-			"particles" : [
-				{"particle" : {
-					"type" : "ember",
-					"layer" : "front",
-					"size" : 1.25,
-					"color" : [150, 0, 0],
-					"initialVelocity" : [0, 0],
-					"finalVelocity" : [0, -50],
-					"approach" : [10, 35],
-					"timeToLive" : 5,
-					"collidesForeground" : true,
-					"destructionTime" : 10,
-					"destructionAction" : "shrink",
-					"variance" : {
-						"size" : 0.25,
-						"initialVelocity" : [25, 25],
-						"timeToLive" : 2.5
-					}
-				}}
+	"particleEmitters": {
+		"blood": {
+			"burstCount": 16,
+			"offsetRegion": [ 2.5, -0.5, -0.5, 1 ],
+			"particles": [
+				{ "particle": {
+						"type": "ember",
+						"layer": "front",
+						"size": 1.25,
+						"color": [ 150, 0, 0 ],
+						"initialVelocity": [ 0, 0 ],
+						"finalVelocity": [ 0, -50 ],
+						"approach": [ 10, 35 ],
+						"timeToLive": 5,
+						"collidesForeground": true,
+						"destructionTime": 10,
+						"destructionAction": "shrink",
+						"variance": {
+							"size": 0.25,
+							"initialVelocity": [ 25, 25 ],
+							"timeToLive": 2.5
+						}
+					} }
 			]
 		},
-		"drip" : {
-			"active" : true,
-			"emissionRate" : 20,
-			"emissionRateVariance" : 5,
-			"offsetRegion" : [-0.375, -0.5, 1.375, -0.5],
-			"particles" : [
-				{"particle" : {
-					"type" : "ember",
-					"layer" : "front",
-					"size" : 1,
-					"color" : [150, 0, 0],
-					"initialVelocity" : [0, -10],
-					"finalVelocity" : [0, -50],
-					"approach" : [0, 35],
-					"timeToLive" : 1,
-					"collidesForeground" : true,
-					"destructionTime" : 2,
-					"destructionAction" : "shrink",
-					"variance" : {
-						"size" : 0.25,
-						"initialVelocity" : [0, 10],
-						"timeToLive" : 0.5
-					}
-				}}
+		"drip": {
+			"active": true,
+			"emissionRate": 20,
+			"emissionRateVariance": 5,
+			"offsetRegion": [ -0.375, -0.5, 1.375, -0.5 ],
+			"particles": [
+				{ "particle": {
+						"type": "ember",
+						"layer": "front",
+						"size": 1,
+						"color": [ 150, 0, 0 ],
+						"initialVelocity": [ 0, -10 ],
+						"finalVelocity": [ 0, -50 ],
+						"approach": [ 0, 35 ],
+						"timeToLive": 1,
+						"collidesForeground": true,
+						"destructionTime": 2,
+						"destructionAction": "shrink",
+						"variance": {
+							"size": 0.25,
+							"initialVelocity": [ 0, 10 ],
+							"timeToLive": 0.5
+						}
+					} }
 			]
 		}
 	},
-	"sounds" : {
-		"meat" : ["/sfx/melee/sawblade_kill_organic.ogg"]
+	"sounds": {
+		"meat": [ "/sfx/melee/sawblade_kill_organic.ogg" ]
 	}
 }
