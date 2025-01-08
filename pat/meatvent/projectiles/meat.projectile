@@ -5,7 +5,7 @@
 	"timeToLive": 10,
 	"bounces": -1,
 	"flippable": false,
-	"orientationLocked": false,
+	"orientationLocked": true,
 	"onlyHitTerrain": true,
 	"damageType": "NoDamage",
 
