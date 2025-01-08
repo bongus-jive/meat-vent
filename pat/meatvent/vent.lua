@@ -22,8 +22,8 @@ function update(dt)
 		local flips = math.random(0, 3)
 		if flips ~= 0 then
 			local f = "?flip"
-			if flips >= 1 then f = f.."x" end
-			if flips <= 3 then f = f.."y" end
+			if flips > 1 then f = f.."x" end
+			if flips < 3 then f = f.."y" end
 			parameters.processing = parameters.processing..f
 		end
 		
