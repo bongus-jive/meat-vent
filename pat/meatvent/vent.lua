@@ -70,3 +70,8 @@ end
 function onNodeConnectionChange()
   onInputNodeChange({node = 0, level = object.getInputNodeLevel(0)})
 end
+
+function die()
+  animator.setSoundVolume("meat", 0.5)
+  for i = 1, 15 do spawnMeat() end
+end
