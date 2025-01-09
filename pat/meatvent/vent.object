@@ -36,7 +36,7 @@
   "meatProjectile": {
     "type": "pat_meatvent",
     "offset": [ 0.5, 0.5 ],
-    "variants": 10,
+    "variants": 12,
     "speedRange": [ 15, 25 ]
   },
 
