@@ -8,14 +8,14 @@
     "initialVelocity": [ 0, 0 ],
     "finalVelocity": [ 0, -50 ],
     "approach": [ 10, 35 ],
-    "timeToLive": 8,
+    "timeToLive": 4,
     "collidesForeground": true,
-    "destructionTime": 10,
+    "destructionTime": 5,
     "destructionAction": "shrink",
     "variance": {
       "size": 0.375,
       "initialVelocity": [ 10, 10 ],
-      "timeToLive": 4
+      "timeToLive": 2
     }
   }
 }

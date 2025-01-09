@@ -10,7 +10,7 @@
     "approach": [ 0, 35 ],
     "timeToLive": 1,
     "collidesForeground": true,
-    "destructionTime": 2,
+    "destructionTime": 1.5,
     "destructionAction": "shrink",
     "variance": {
       "size": 0.25,
