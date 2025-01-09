@@ -2,10 +2,10 @@
   "objectName": "pat_meatvent",
   "rarity": "Rare",
   "category": "decorative",
-  "printable": false,
+  "printable": true,
 
+  "shortdescription": "Meat Vent",
   "description": "A vent that dispenses a delicious raw meat!",
-  "shortdescription": "Meat vent",
 
   "apexDescription": "A rusted old fan.. is that meat?",
   "avianDescription": "A whistle of air still slips through with the meat.",
@@ -14,7 +14,7 @@
   "hylotlDescription": "This fan circulates raw meat.",
   "novakidDescription": "It's a vent. There's raw meat comin' from it.",
 
-  "inventoryIcon": "vent.png:0",
+  "inventoryIcon": "icon.png",
   "orientations": [
     {
       "image": "vent.png:<frame>",
