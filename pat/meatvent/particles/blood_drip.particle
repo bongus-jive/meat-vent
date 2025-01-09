@@ -1,0 +1,21 @@
+{
+  "kind": "pat_meatvent_blood_drip",
+  "definition": {
+    "type": "ember",
+    "layer": "front",
+    "size": 1,
+    "color": [ 150, 0, 0 ],
+    "initialVelocity": [ 0, -10 ],
+    "finalVelocity": [ 0, -50 ],
+    "approach": [ 0, 35 ],
+    "timeToLive": 1,
+    "collidesForeground": true,
+    "destructionTime": 2,
+    "destructionAction": "shrink",
+    "variance": {
+      "size": 0.25,
+      "initialVelocity": [ 0, 10 ],
+      "timeToLive": 0.5
+    }
+  }
+}
