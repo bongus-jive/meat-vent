@@ -52,7 +52,7 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/..\/..\/..\/unpacked\/tilesets\/packed\/objects-by-race\/human.json"
+         "source":"..\/..\/..\/..\/..\/unpacked\/tilesets\/packed\/objects-by-race\/human.json"
         }],
  "tilewidth":8,
  "type":"map",
