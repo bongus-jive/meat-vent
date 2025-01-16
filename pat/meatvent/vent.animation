@@ -3,8 +3,10 @@
     "blood": {
       "burstCount": 12,
       "offsetRegion": [ 2.5, -0.5, -0.5, 1 ],
+      "randomSelectCount": 1,
       "particles": [
-        { "particle": "pat_meatvent_blood_grinder" }
+        { "particle": "pat_meatvent_blood_grinder" },
+        { "particle": "pat_meatvent_blood_grinder2" }
       ]
     },
     "drip": {
@@ -12,8 +14,11 @@
       "emissionRate": 16,
       "emissionRateVariance": 5,
       "offsetRegion": [ -0.375, -0.5, 1.375, -0.5 ],
+      "randomSelectCount": 1,
       "particles": [
-        { "particle": "pat_meatvent_blood_drip" }
+        { "particle": "pat_meatvent_blood_drip" },
+        { "particle": "pat_meatvent_blood_drip" },
+        { "particle": "pat_meatvent_blood_drip2", "offset": [ 0, -0.8 ] }
       ]
     }
   },

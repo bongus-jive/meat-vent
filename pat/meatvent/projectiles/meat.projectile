@@ -17,8 +17,12 @@
       "repeat": true,
       "body": [
         {
-          "action": "particle",
-          "specification": "pat_meatvent_blood_gib"
+          "action": "option",
+          "options": [
+            { "action": "particle", "specification": "pat_meatvent_blood_gib" },
+            { "action": "particle", "specification": "pat_meatvent_blood_gib" },
+            { "action": "particle", "specification": "pat_meatvent_blood_gib2", "rotate": true }
+          ]
         }
       ]
     }

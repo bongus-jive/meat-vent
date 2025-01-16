@@ -1,21 +1,23 @@
 {
-  "kind": "pat_meatvent_blood_grinder",
+  "kind": "pat_meatvent_blood_gib2",
   "definition": {
     "type": "ember",
     "layer": "front",
-    "size": 1.25,
+    "size": 0.55,
     "color": [ 150, 0, 0 ],
     "initialVelocity": [ 0, 0 ],
     "finalVelocity": [ 0, -60 ],
     "approach": [ 10, 35 ],
-    "timeToLive": 3,
+    "timeToLive": 1.6,
     "collidesForeground": true,
-    "destructionTime": 5,
+    "destructionTime": 1.6,
     "destructionAction": "shrink",
+    "trail": true,
     "variance": {
-      "size": 0.25,
-      "initialVelocity": [ 25, 25 ],
-      "timeToLive": 1.5
+      "size": 0.15,
+      "position": [ 0.2, 0.2 ],
+      "initialVelocity": [ 8, 8 ],
+      "timeToLive": 0.8
     }
   }
 }

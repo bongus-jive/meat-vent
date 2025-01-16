@@ -1,21 +1,22 @@
 {
-  "kind": "pat_meatvent_blood_grinder",
+  "kind": "pat_meatvent_blood_grinder2",
   "definition": {
     "type": "ember",
     "layer": "front",
-    "size": 1.25,
+    "size": 0.8,
     "color": [ 150, 0, 0 ],
     "initialVelocity": [ 0, 0 ],
-    "finalVelocity": [ 0, -60 ],
+    "finalVelocity": [ 0, -50 ],
     "approach": [ 10, 35 ],
-    "timeToLive": 3,
+    "timeToLive": 1.5,
     "collidesForeground": true,
-    "destructionTime": 5,
+    "destructionTime": 2.5,
     "destructionAction": "shrink",
+    "trail": true,
     "variance": {
-      "size": 0.25,
+      "size": 0.2,
       "initialVelocity": [ 25, 25 ],
-      "timeToLive": 1.5
+      "timeToLive": 0.5
     }
   }
 }

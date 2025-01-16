@@ -1,0 +1,23 @@
+{
+  "kind": "pat_meatvent_blood_drip2",
+  "definition": {
+    "type": "streak",
+    "layer": "front",
+    "size": 0.6,
+    "length": 6,
+    "color": [ 150, 0, 0 ],
+    "initialVelocity": [ 0, -10 ],
+    "finalVelocity": [ 0, -75 ],
+    "approach": [ 0, 40 ],
+    "timeToLive": 0,
+    "collidesForeground": true,
+    "destructionTime": 1,
+    "destructionAction": "shrink",
+    "variance": {
+      "size": 0.1,
+      "length": 2,
+      "initialVelocity": [ 0, 10 ],
+      "timeToLive": 0.5
+    }
+  }
+}
