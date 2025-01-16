@@ -4,38 +4,31 @@
  "layers":[
         {
          "draworder":"topdown",
-         "id":2,
+         "id":1,
          "name":"objects",
          "objects":[
                 {
-                 "gid":130,
                  "height":24,
                  "id":1,
                  "name":"",
+                 "properties":
+                    {
+                     "imagePositionX":"-8",
+                     "imagePositionY":"-8",
+                     "object":"pat_meatvent"
+                    },
+                 "propertytypes":
+                    {
+                     "imagePositionX":"string",
+                     "imagePositionY":"string",
+                     "object":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":24,
                  "x":0,
-                 "y":24
-                }, 
-                {
-                 "gid":130,
-                 "height":24,
-                 "id":2,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"object",
-                         "type":"string",
-                         "value":"pat_meatvent"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":0,
-                 "y":24
+                 "y":0
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -43,19 +36,15 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":3,
- "nextobjectid":3,
+ "nextlayerid":2,
+ "nextobjectid":2,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.7.2",
+ "tiledversion":"1.11.0",
  "tileheight":8,
- "tilesets":[
-        {
-         "firstgid":1,
-         "source":"..\/..\/..\/..\/..\/unpacked\/tilesets\/packed\/objects-by-race\/human.json"
-        }],
+ "tilesets":[],
  "tilewidth":8,
  "type":"map",
- "version":"1.6",
+ "version":1.1,
  "width":3
 }
