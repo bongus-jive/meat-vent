@@ -8,7 +8,7 @@
          "name":"objects",
          "objects":[
                 {
-                 "height":24,
+                 "height":8,
                  "id":1,
                  "name":"",
                  "properties":
@@ -26,9 +26,9 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":24,
+                 "width":8,
                  "x":0,
-                 "y":0
+                 "y":16
                 }],
          "opacity":1,
          "type":"objectgroup",
